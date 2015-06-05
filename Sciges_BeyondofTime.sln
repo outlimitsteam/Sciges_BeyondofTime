@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{08D592DC-7BE3-4FBE-B536-4EF57DED782F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{58D61B80-A4A0-4342-A418-8224B825F1DC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sciges_BeyondofTime", "Intermediate\ProjectFiles\Sciges_BeyondofTime.vcxproj", "{0A3C2BA5-EB32-4F57-BD69-2161650630D8}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UE4", "Intermediate\ProjectFiles\UE4.vcxproj", "{9C3B80E0-476F-4054-A3D1-B4BB6EB1F136}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		DebugGame Editor|Windows = DebugGame Editor|Windows
+		DebugGame|Windows = DebugGame|Windows
+		Development Editor|Windows = Development Editor|Windows
+		Development|Windows = Development|Windows
+		Shipping|Windows = Shipping|Windows
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A3C2BA5-EB32-4F57-BD69-2161650630D8}.DebugGame Editor|Windows.ActiveCfg = DebugGame_Editor|x64
+		{0A3C2BA5-EB32-4F57-BD69-2161650630D8}.DebugGame Editor|Windows.Build.0 = DebugGame_Editor|x64
+		{0A3C2BA5-EB32-4F57-BD69-2161650630D8}.DebugGame|Windows.ActiveCfg = DebugGame_Game|x64
+		{0A3C2BA5-EB32-4F57-BD69-2161650630D8}.DebugGame|Windows.Build.0 = DebugGame_Game|x64
+		{0A3C2BA5-EB32-4F57-BD69-2161650630D8}.Development Editor|Windows.ActiveCfg = Development_Editor|x64
+		{0A3C2BA5-EB32-4F57-BD69-2161650630D8}.Development Editor|Windows.Build.0 = Development_Editor|x64
+		{0A3C2BA5-EB32-4F57-BD69-2161650630D8}.Development|Windows.ActiveCfg = Development_Game|x64
+		{0A3C2BA5-EB32-4F57-BD69-2161650630D8}.Development|Windows.Build.0 = Development_Game|x64
+		{0A3C2BA5-EB32-4F57-BD69-2161650630D8}.Shipping|Windows.ActiveCfg = Shipping_Game|Win32
+		{0A3C2BA5-EB32-4F57-BD69-2161650630D8}.Shipping|Windows.Build.0 = Shipping_Game|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9C3B80E0-476F-4054-A3D1-B4BB6EB1F136} = {08D592DC-7BE3-4FBE-B536-4EF57DED782F}
+		{0A3C2BA5-EB32-4F57-BD69-2161650630D8} = {58D61B80-A4A0-4342-A418-8224B825F1DC}
+	EndGlobalSection
+EndGlobal
