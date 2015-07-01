@@ -1,67 +1,82 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<ItemGroup>
-		<None Include="..\..\Sciges_BeyondofTime.uproject" />
-		<Filter Include="Source">
-			<UniqueIdentifier>{F82F551B-5B25-4D41-94A2-4A988F0E4727}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\Sciges_BeyondofTime.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<None Include="..\..\Source\Sciges_BeyondofTimeEditor.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<Filter Include="Config">
-			<UniqueIdentifier>{96EEE305-15C0-4CBC-8AED-7ABDF47FD1BB}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Config\DefaultEditor.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEditorUserSettings.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEngine.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultGame.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultInput.ini">
-			<Filter>Config</Filter>
-		</None >
-		<Filter Include="Source\Sciges_BeyondofTime">
-			<UniqueIdentifier>{5F557171-C8AA-4BC2-B615-2F15231ED578}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\Sciges_BeyondofTime\Sciges_BeyondofTime.Build.cs">
-			<Filter>Source\Sciges_BeyondofTime</Filter>
-		</None >
-		<ClCompile Include="..\..\Source\Sciges_BeyondofTime\Sciges_BeyondofTime.cpp">
-			<Filter>Source\Sciges_BeyondofTime</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Sciges_BeyondofTime\Sciges_BeyondofTime.h">
-			<Filter>Source\Sciges_BeyondofTime</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\Sciges_BeyondofTime\Sciges_BeyondofTimeCharacter.cpp">
-			<Filter>Source\Sciges_BeyondofTime</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Sciges_BeyondofTime\Sciges_BeyondofTimeCharacter.h">
-			<Filter>Source\Sciges_BeyondofTime</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\Sciges_BeyondofTime\Sciges_BeyondofTimeGameMode.cpp">
-			<Filter>Source\Sciges_BeyondofTime</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Sciges_BeyondofTime\Sciges_BeyondofTimeGameMode.h">
-			<Filter>Source\Sciges_BeyondofTime</Filter>
-		</ClInclude >
-		<Filter Include="Source\Sciges_BeyondofTime\Resources">
-			<UniqueIdentifier>{91023881-841C-4AF7-AA64-44C589A78589}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="Source\Sciges_BeyondofTime\Resources\Windows">
-			<UniqueIdentifier>{36BB364C-4A6D-43CA-9E1F-28AC1E154CA0}</UniqueIdentifier>
-		</Filter>
-		<ResourceCompile Include="..\..\Source\Sciges_BeyondofTime\Resources\Windows\Sciges_BeyondofTime.rc">
-			<Filter>Source\Sciges_BeyondofTime\Resources\Windows</Filter>
-		</ResourceCompile >
-	</ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Sciges_BeyondofTime.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F82F551B-5B25-4D41-94A2-4A988F0E4727}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Sciges_BeyondofTime.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Sciges_BeyondofTimeEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{96EEE305-15C0-4CBC-8AED-7ABDF47FD1BB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Sciges_BeyondofTime">
+      <UniqueIdentifier>{5F557171-C8AA-4BC2-B615-2F15231ED578}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Sciges_BeyondofTime\Sciges_BeyondofTime.Build.cs">
+      <Filter>Source\Sciges_BeyondofTime</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Sciges_BeyondofTime\Sciges_BeyondofTime.cpp">
+      <Filter>Source\Sciges_BeyondofTime</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Sciges_BeyondofTime\Sciges_BeyondofTime.h">
+      <Filter>Source\Sciges_BeyondofTime</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Sciges_BeyondofTime\Sciges_BeyondofTimeCharacter.cpp">
+      <Filter>Source\Sciges_BeyondofTime</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Sciges_BeyondofTime\Sciges_BeyondofTimeCharacter.h">
+      <Filter>Source\Sciges_BeyondofTime</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Sciges_BeyondofTime\Sciges_BeyondofTimeGameMode.cpp">
+      <Filter>Source\Sciges_BeyondofTime</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Sciges_BeyondofTime\Sciges_BeyondofTimeGameMode.h">
+      <Filter>Source\Sciges_BeyondofTime</Filter>
+    </ClInclude>
+    <Filter Include="Source\Sciges_BeyondofTime\Resources">
+      <UniqueIdentifier>{91023881-841C-4AF7-AA64-44C589A78589}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Sciges_BeyondofTime\Resources\Windows">
+      <UniqueIdentifier>{36BB364C-4A6D-43CA-9E1F-28AC1E154CA0}</UniqueIdentifier>
+    </Filter>
+    <ResourceCompile Include="..\..\Source\Sciges_BeyondofTime\Resources\Windows\Sciges_BeyondofTime.rc">
+      <Filter>Source\Sciges_BeyondofTime\Resources\Windows</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Sciges_BeyondofTime\BlueP.cpp">
+      <Filter>Source\Sciges_BeyondofTime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Sciges_BeyondofTime\TestActor.cpp">
+      <Filter>Source\Sciges_BeyondofTime</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Sciges_BeyondofTime\BlueP.h">
+      <Filter>Source\Sciges_BeyondofTime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Sciges_BeyondofTime\TestActor.h">
+      <Filter>Source\Sciges_BeyondofTime</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
