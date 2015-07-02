@@ -15,7 +15,8 @@ public:
 	ABlueP();
 
 	//Variables
-	int a;
+	UPROPERTY(EditAnywhere, Category = "Count")
+	int32 a;
 
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
